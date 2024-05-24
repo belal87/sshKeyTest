@@ -1,0 +1,97 @@
+git --version
+git config
+git config --global user.name "Belal-hossain"
+git config --global user.email "mdbellhossain521@gmail.com"
+git config --list
+
+git remote 
+git remote -v
+
+/* Change user and email name */
+git config --global user.name "belal"
+git config --global user.name "email"
+git config --list
+
+/* see user and email name */
+git config user.name
+git config user.email
+
+/* create git folder */
+pwd
+cd ../ 
+ls 
+mkdir notes <-- make directory -->
+ls -a <-- show hidden fill -->
+git init <-- git initialize -->
+touch day1.txt <-- make fill -->
+open day1.txt <-- open fill -->
+git status <-- git status -->
+git add -a <-- from all (Untracked) unStaging to staging area -->
+git add . <-- from (Untracked) unStaging to staging area -->
+git add *.js (directory wildcard)
+git add **/*.js (directory & subdirectory wildcard)
+git restore day2.txt --> this commend is old version
+git checkout "fill name"
+git rm --cached <--  cached day1.txt <-- from staging area to unStaging  -->
+git diff <-- what i updated, i want to see -->
+git commit -m "day one data is added"
+git log
+git log --oneLine
+git add . && git commit -m "day3 data is added"
+git reset --hard HEAD^ <-- Delete recent commit -->
+git reset --hard HEAD <-- Delete recent commit -->
+git reset --soft HEAD^ <-- from committed area to uncommitted  -->
+git reset HEAD^ <-- from committed area to working directory -->
+git show
+git show commit_id
+git checkout cde5358 <-- from current commit to another commit sections  -->
+git checkout master
+
+<---- local repository and remote repository ----->
+create new folder then
+mkdir life-story
+cd life-story
+git cached (life-story) 
+git remote
+git remote add origin https://github.com/belal87/live-story.git
+git remote -v ( origin address )
+git clone https://github.com/belal87/readme-template.git
+rm -rf (folder-name) life-story removed directory 
+git push -u origin main
+git pull 
+
+<---------- branching and merging ------------->
+git branch
+git branch test1
+git checkout test1
+git branch -d test1
+git checkout -b "test1"
+git push -u origin test1 ( branch name )
+git merge test1
+
+
+
+------ Markdown ---------
+1. what & why README.md?
+2. How to make a comment
+3. Normal text & new line 
+4. Horizontal rule
+5. Headings
+6. Paragraph
+7. italic
+8. bold
+9. strikeThrough
+10. inline code block
+11. Multiple line code block 
+12. list 
+13. Link
+14. Image
+15. Emoji
+16. Table
+
+
+
+
+
+
+
